@@ -19,8 +19,11 @@ function Main() {
             <a href="https://www.linkedin.com/in/heshantha-md/" target="_blank" rel="noreferrer"><FaLinkedin/></a>
           </div>
           <h1>Heshantha Don</h1>
-          <p>Mobile Application Developer</p>
-          <Chip className='chip' label="Portsmouth, United Kingdom" />
+          <p>React Native Developer</p>
+          <div className="location">
+            <Chip className='chip' label="United Kingdom" />
+            <Chip className='chip' label="#OPENTORELOCATE" />
+          </div>
 
           <div className="mobile_social_icons">
             <a href="https://apps.apple.com/gb/developer/heshantha-nadeeshan-mahawaththage-don/id1714663716" target="_blank" rel="noreferrer"><FaAppStoreIos/></a>

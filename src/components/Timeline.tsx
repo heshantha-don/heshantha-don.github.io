@@ -21,7 +21,8 @@ function Timeline() {
             iconStyle={{ background: '#861DBB', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <a href="https://www.linkedin.com/in/heshantha-don/" target="_blank" rel="noreferrer"><h3 className="vertical-timeline-element-title">Looking for my next opportunity</h3></a>
+            <a href="https://www.linkedin.com/in/heshantha-don/" target="_blank" rel="noreferrer"><h3 className="vertical-timeline-element-title">React Native Developer{" "}<Chip className='chipDark' label="#OPENTOWORK" /></h3></a>
+            <p>With a year of experience in React Native development, I’m ready to take the next step and break into the industry. I’m passionate about building high-quality mobile apps and excited to continue my journey as a React Native developer in a professional environment.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -32,7 +33,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <a href="https://apps.apple.com/gb/developer/heshantha-nadeeshan-mahawaththage-don/id1714663716" target="_blank" rel="noreferrer"><h3 className="vertical-timeline-element-title">Freelancer</h3></a>
-            <p>I offered experienced IT consultancy for App Store submissions, guideline reviews, and enrollments in the Apple Developer Program. Most days, I work on my own projects to stay sharp with Swift and SwiftUI, contribute to the GitHub community, and create new apps to share with the world.</p>
+            <p>I offered experienced IT consultancy for App Store submissions, guideline reviews, and enrollments in the Apple Developer Program. Most days, I work on my own projects to stay sharp with tech, contribute to the GitHub community, and create new apps to share with the world.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -74,10 +75,9 @@ function Timeline() {
             <h4 className="vertical-timeline-element-subtitle">Colombo, Sri Lanka</h4>
             <p>
               Mobile Application Developer {" "}
+                <Chip className='chipDark' label="React Native" />{" "}
                 <Chip className='chipDark' label="Swift" />{" "}
                 <Chip className='chipDark' label="Obje-C" />{" "}
-                <Chip className='chipDark' label="React Native" />{" "}
-                <Chip className='chipDark' label="Flutter" />
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

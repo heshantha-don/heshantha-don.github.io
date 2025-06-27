@@ -47,6 +47,11 @@
         margin-block-start: 0px;
         margin-block-end: 0px;
     }
+
+    .location {
+        display: flex;
+        gap: 8px;
+    }
 }
 
 .about-section .image-wrapper {
