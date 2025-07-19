@@ -7,6 +7,20 @@ function GitHubContributions() {
             <h1>GitHub Contributions</h1>
             <div className="projects-grid">
                 <div className="project">
+                    <a href="https://private-user-images.githubusercontent.com/31559910/468282536-f8e790cd-a5a7-440a-9e0b-92c77c4729dd.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTI5Mjc2MTMsIm5iZiI6MTc1MjkyNzMxMywicGF0aCI6Ii8zMTU1OTkxMC80NjgyODI1MzYtZjhlNzkwY2QtYTVhNy00NDBhLTllMGItOTJjNzdjNDcyOWRkLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzE5VDEyMTUxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNjNmVkYzlmOWFhNzdiMDcxZjg4MDg4YmVmZjVjZTYwMDRhM2JjMGU2YTE0OWRjZTI5NDMxNmQ5NDc1YTM4NzcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.MLpNd1jgl_qxNQeUUfxIa0KJclFeELVuWzZIbNkG8Cc" target="_blank" rel="noreferrer">
+                        <img src="https://private-user-images.githubusercontent.com/31559910/468282536-f8e790cd-a5a7-440a-9e0b-92c77c4729dd.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTI5Mjc2MTMsIm5iZiI6MTc1MjkyNzMxMywicGF0aCI6Ii8zMTU1OTkxMC80NjgyODI1MzYtZjhlNzkwY2QtYTVhNy00NDBhLTllMGItOTJjNzdjNDcyOWRkLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzE5VDEyMTUxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNjNmVkYzlmOWFhNzdiMDcxZjg4MDg4YmVmZjVjZTYwMDRhM2JjMGU2YTE0OWRjZTI5NDMxNmQ5NDc1YTM4NzcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.MLpNd1jgl_qxNQeUUfxIa0KJclFeELVuWzZIbNkG8Cc" className="zoom" alt="thumbnail" width="100%"/>
+                    </a>
+                    <a href="https://github.com/heshantha-don/little-lemon" target="_blank" rel="noreferrer"><h2>Capstone Little Lemon {" "}<Chip className='chip' label="React Native" />{" "}<Chip className='chip' label="CLI" /></h2></a>
+                    <p><b>[ Meta React Native Specialization ]</b> I recently brushed up on my React Native skills, and it was really fun and super useful! This is the final project module of the course, putting all the knowledge I gained to the test.</p>
+                </div>
+                <div className="project">
+                    <a href="https://github.com/heshantha-don/ShoppingApp-ReactNative" target="_blank" rel="noreferrer">
+                        <img src="https://github.com/heshantha-don/ShoppingApp-ReactNative/assets/31559910/443d9a09-98a7-41d5-9a55-db4865fc0476" className="zoom" alt="thumbnail" width="100%"/>
+                    </a>
+                    <a href="https://github.com/heshantha-don/ShoppingApp-ReactNative" target="_blank" rel="noreferrer"><h2>Shopping App{" "}<Chip className='chip' label="React Native" />{" "}<Chip className='chip' label="Expo" /></h2></a>
+                    <p>Welcome to the Shopping App! This project was developed using React Native Expo to brush up on my React Native skills and explore the capabilities of Expo. While I really believe in the power and flexibility of React Native CLI, working with Expo has been a whole new level of fun and convenience.</p>
+                </div>
+                <div className="project">
                     <a href="https://github.com/heshantha-don/PokemonApp" target="_blank" rel="noreferrer"><img src="https://github.com/heshantha-don/PokemonApp/assets/31559910/28d8e9ea-00e2-449c-9d6d-bb39faedd1c0" className="zoom" alt="thumbnail" width="100%"/></a>
                     <a href="https://github.com/heshantha-don/PokemonApp" target="_blank" rel="noreferrer"><h2>Pokémon App{" "}<Chip className='chip' label="SwiftUI" /></h2></a>
                     <p>Welcome to the world of Pokémon! Whether you're a seasoned trainer or just starting your journey, this app offers an immersive experience to browse, discover, and manage your favorite Pokémon.</p>
@@ -31,18 +45,11 @@ function GitHubContributions() {
                     <a href="https://github.com/heshantha-don/UIDropDownTextField" target="_blank" rel="noreferrer"><h2>UIDropDownTextField{" "}<Chip className='chip' label="UIkit" /></h2></a>
                     <p>UIDropDownTextField is a custom class that written to draw / design an awesome Data Picker Controller with simple and easy approach. Developer can implement new Drop Down TextField with simple few steps and customize it with plenty of attributes using attributes inspector such as background, border color, separator color, font and font color etc. Class is based on Swift language and require UIKit framework for function the functionalities of the class.</p>
                 </div>
-                <div className="project">
+                {/* <div className="project">
                     <a href="https://github.com/heshantha-don/UIStepperController" target="_blank" rel="noreferrer"><img src="https://github.com/NadeeshanEngineering/UIStepperController/raw/master/example_preview_body.png" className="zoom" alt="thumbnail" width="100%"/></a>
                     <a href="https://github.com/heshantha-don/UIStepperController" target="_blank" rel="noreferrer"><h2>UIStepperController{" "}<Chip className='chip' label="UIkit" /></h2></a>
                     <p>UIStepperController is a custom class that written to draw / design an awesome Stepper Controller with easy approach. further more it capable of holding either numeric or floating numbers, and developer can customize the stepper controller with attributes such as size, border color, background color, font color etc. Class is based on Swift language and require UIKit framework for function the functionalities.</p>
-                </div>
-                <div className="project">
-                    <a href="https://github.com/heshantha-don/ShoppingApp-ReactNative" target="_blank" rel="noreferrer">
-                        <img src="https://github.com/heshantha-don/ShoppingApp-ReactNative/assets/31559910/443d9a09-98a7-41d5-9a55-db4865fc0476" className="zoom" alt="thumbnail" width="100%"/>
-                    </a>
-                    <a href="https://github.com/heshantha-don/ShoppingApp-ReactNative" target="_blank" rel="noreferrer"><h2>Shopping App{" "}<Chip className='chip' label="React Native" /></h2></a>
-                    <p>Welcome to the Shopping App! This project was developed using React Native Expo to brush up on my React Native skills and explore the capabilities of Expo. While I really believe in the power and flexibility of React Native CLI, working with Expo has been a whole new level of fun and convenience.</p>
-                </div>
+                </div> */}
             </div>
 
             <h4>Contribution activity</h4>
