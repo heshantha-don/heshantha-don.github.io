@@ -19,9 +19,10 @@ function Main() {
             <a href="https://www.linkedin.com/in/heshantha-md/" target="_blank" rel="noreferrer"><FaLinkedin/></a>
           </div>
           <h1>Heshantha Don</h1>
-          <p>React Native Developer</p>
+          {/* <p>React Native Developer</p> */}
           <div className="location">
             <Chip className='chip' label="United Kingdom" />
+            <Chip className='chip' label="#OPENTOWORK" />
             <Chip className='chip' label="#OPENTORELOCATE" />
           </div>
 

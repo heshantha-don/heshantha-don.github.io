@@ -67,11 +67,11 @@ function Navigation({ parentToChild, modeChange }: any) {
             </ListItemButton>
           </ListItem>
         ))}
-        <ListItem disablePadding>
+        {/* <ListItem disablePadding>
           <ListItemButton component="a" href="/pdf/heshantha-don-cv.pdf" download sx={{ textAlign: 'center'}}>
             <ListItemText primary="Download CV" />
           </ListItemButton>
-        </ListItem>
+        </ListItem> */}
       </List>
     </Box>
   );
@@ -101,7 +101,7 @@ function Navigation({ parentToChild, modeChange }: any) {
                 {item[0]}
               </Button>
             ))}
-            <Button
+            {/* <Button
               href="/pdf/heshantha-don-cv.pdf"
               download
               variant="contained"
@@ -118,7 +118,7 @@ function Navigation({ parentToChild, modeChange }: any) {
               }}
             >
               Download CV
-            </Button>
+            </Button> */}
           </Box>
         </Toolbar>
       </AppBar>
