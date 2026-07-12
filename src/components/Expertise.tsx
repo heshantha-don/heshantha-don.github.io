@@ -4,6 +4,10 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
+    "Artificial intelligence (AI)", 
+    "Multi agent workflows", 
+    "Vibe coding (Cursor, Codex, OpenClaw)", 
+    "AI Automation",
     "React Native",
     "JavaScript",
     "TypeScript",
@@ -74,9 +78,7 @@ function Expertise() {
         <div className="skills-container">
             <h1>Who I am</h1>
                 <div className="skill">
-                    <p>Hello, I’m Heshantha, a mobile application developer based in United Kingdom. With over five years of experience, I’ve contributed to a wide range of products across fintech, education, and marine industries, focusing on clean architecture, smooth performance, and strong security practices. My goal is always to create apps that are not only functional, but also intuitive and genuinely helpful to the people who use them.</p>
-                    <p>I enjoy working in agile, collaborative environments where clean code, open dialogue, and continuous learning are part of the culture. Over the years, I’ve worked across all stages of the development process, including planning, prototyping, release, iteration, and ongoing support. I regularly contribute to code reviews, mentor junior developers, and help shape thoughtful solutions that meet both user needs and business goals. Whether building features from scratch or improving existing ones, I always aim to write maintainable, scalable code that makes a difference.</p>
-                    <p>I’m currently open to joining a new team where I can grow, share my skills, and take on meaningful challenges. In the meantime, I enjoy building my own products, writing articles, and immersing myself in books that broaden my perspective. I’m always eager to keep learning and push the boundaries of what I can do. While developing my skills, I also want to contribute to the team I work with by making a positive impact using my skill set.</p>
+                    <p>Hello, I’m Heshantha, a curious Tech Professional with over seven years of experience across healthcare, education, fintech, and marine tech. Right now, I’m at Open Bionics, where I help people with limb differences get the absolute best out of their prosthetic arms. My day-to-day involves diving into our ecosystem to troubleshoot and fix issues between the hardware devices and our app, working closely with both users and management to elevate the experience. We also use AI and automation to keep our workflows fast and reliable, so we can focus on what matters most: helping our users become heroes again.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (

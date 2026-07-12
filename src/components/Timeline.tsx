@@ -23,8 +23,13 @@ function Timeline() {
           >
             {/* <a href="https://www.linkedin.com/in/heshantha-don/" target="_blank" rel="noreferrer"><h3 className="vertical-timeline-element-title">React Native Developer{" "}<Chip className='chipDark' label="#OPENTOWORK" /></h3></a>
             <p>With a year of experience in React Native development, I’m ready to take the next step and break into the industry. I’m passionate about building high-quality mobile apps and excited to continue my journey as a React Native developer in a professional environment.</p> */}
-            <a href="https://www.linkedin.com/in/heshantha-don/" target="_blank" rel="noreferrer"><h3 className="vertical-timeline-element-title">Mobile Developer{" "}<Chip className='chipDark' label="#OPENTOWORK" />{" "}<Chip className='chipDark' label="#OPENTORELOCATE" /></h3></a>
-            <p>With over five years of experience in iOS development and one year of professional experience in React Native at Epic Technology, I’m ready to take the next step and break into the industry. I’m passionate about building high-quality mobile apps and excited to continue my journey in a professional environment.</p>
+            {/* <a href="https://www.linkedin.com/in/heshantha-don/" target="_blank" rel="noreferrer"><h3 className="vertical-timeline-element-title">Mobile Developer{" "}<Chip className='chipDark' label="#OPENTOWORK" />{" "}<Chip className='chipDark' label="#OPENTORELOCATE" /></h3></a>
+            <p>With over five years of experience in iOS development and one year of professional experience in React Native at Epic Technology, I’m ready to take the next step and break into the industry. I’m passionate about building high-quality mobile apps and excited to continue my journey in a professional environment.</p> */}
+            <a href="https://www.linkedin.com/in/heshantha-don/" target="_blank" rel="noreferrer"><h3 className="vertical-timeline-element-title">Open Bionics</h3></a>
+            <h4 className="vertical-timeline-element-subtitle">Bristol, United Kingdom</h4>
+            <p>Junior Application Developer{" "}
+              <Chip className='chipDark' label="React Native" />
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"

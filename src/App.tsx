@@ -35,7 +35,7 @@ function App() {
             <Main/>
             <Expertise/>
             <Timeline/>
-            <Project/>
+            {/* <Project/> */}
             <GitHubContributions/>
             <Blog/>
             <Contact/>
